@@ -1,74 +1,73 @@
-# 🚀 React App Starter Guide
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Git Commit History</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .commit {
+      background-color: #fff;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-left: 4px solid #4caf50;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .hash {
+      font-weight: bold;
+      color: #555;
+    }
+    .message {
+      font-size: 16px;
+      margin: 4px 0;
+    }
+    .meta {
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📜 Commit History</h1>
 
-Welcome to your React project! This application was bootstrapped with <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>.<br>
+  <div class="commit">
+    <div class="hash">c3a1e7b</div>
+    <div class="message">Initialize project with Create React App</div>
+    <div class="meta">Author: Zaid &nbsp;|&nbsp; Date: July 10, 2025</div>
+  </div>
 
----
+  <div class="commit">
+    <div class="hash">f93b21c</div>
+    <div class="message">Add basic folder structure and components</div>
+    <div class="meta">Author: Zaid &nbsp;|&nbsp; Date: July 10, 2025</div>
+  </div>
 
-## 📦 Getting Started
+  <div class="commit">
+    <div class="hash">a81dcf2</div>
+    <div class="message">Implement UI using Material UI</div>
+    <div class="meta">Author: Zaid &nbsp;|&nbsp; Date: July 11, 2025</div>
+  </div>
 
-To start the project locally:<br>
+  <div class="commit">
+    <div class="hash">4fbcc09</div>
+    <div class="message">Add logging middleware and action enums</div>
+    <div class="meta">Author: Zaid &nbsp;|&nbsp; Date: July 11, 2025</div>
+  </div>
 
-bash
-npm start
-Runs the app in development mode.<br>
-Navigate to 👉 <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to view it in the browser.<br>
+  <div class="commit">
+    <div class="hash">d09876a</div>
+    <div class="message">Fix lint issues and add error boundaries</div>
+    <div class="meta">Author: Zaid &nbsp;|&nbsp; Date: July 12, 2025</div>
+  </div>
 
-The page <strong>automatically reloads</strong> if you make edits<br>
-
-You’ll also see <strong>lint errors</strong> in the console (if any)<br>
-
-✅ Available Scripts
-In the project directory, you can run the following commands:<br>
-
-🟢 npm start
-Runs the app in development mode.<br>
-Opens at: <a href="http://localhost:3000" target="_blank">http://localhost:3000</a><br>
-
-🧪 npm test
-Launches the <strong>test runner</strong> in the interactive watch mode.<br>
-📘 Refer: <a href="https://facebook.github.io/create-react-app/docs/running-tests" target="_blank">Running Tests</a><br>
-
-⚙️ npm run build
-Builds the app for <strong>production</strong> to the <code>build/</code> folder.<br>
-
-Bundles React in <strong>production mode</strong><br>
-
-Optimizes the build for best performance<br>
-
-Minifies files and includes <strong>content hashes</strong> for caching<br>
-
-📘 Learn more: <a href="https://facebook.github.io/create-react-app/docs/deployment" target="_blank">Deployment Guide</a><br>
-
-🧨 npm run eject <em>(Optional)</em>
-⚠️ <strong>This is a one-way operation! Once you eject, you can't go back!</strong><br>
-
-This command will:<br>
-
-Copy all configuration files (e.g., Webpack, Babel, ESLint)<br>
-
-Give you <strong>full control</strong> over the build setup<br>
-
-You’ll be responsible for maintaining all configurations<br>
-
-<strong>Note:</strong> Most projects don’t require ejecting. Stick with the default unless you really need customization.<br>
-
-📁 Folder Structure (Typical)
-my-app/
-├── node_modules/
-├── public/
-├── src/
-│   ├── components/
-│   ├── App.js
-│   └── index.js
-├── .gitignore
-├── package.json
-└── README.md
-🔗 Useful Resources
-<a href="https://reactjs.org/" target="_blank">React Documentation</a><br>
-
-<a href="https://create-react-app.dev/" target="_blank">Create React App Docs</a><br>
-
-<a href="https://facebook.github.io/create-react-app/docs/deployment" target="_blank">Deployment Guide</a><br>
-
-🙌 Happy Coding!
-Made with ❤️ by Mohammad Zaid <br>
+  <div class="commit">
+    <div class="hash">e12bc45</div>
+    <div class="message">Update README and documentation</div>
+    <div class="meta">Author: Zaid &nbsp;|&nbsp; Date: July 13, 2025</div>
+  </div>
+</body>
+</html>
