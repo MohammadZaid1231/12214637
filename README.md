@@ -1,48 +1,56 @@
-📦 Getting Started
-To start the project locally:
+# 🚀 React App Starter Guide
 
+Welcome to your React project! This application was bootstrapped with <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>.<br>
+
+---
+
+## 📦 Getting Started
+
+To start the project locally:<br>
+
+bash
 npm start
-Runs the app in development mode.
-Navigate to 👉 http://localhost:3000 to view it in the browser.
+Runs the app in development mode.<br>
+Navigate to 👉 <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to view it in the browser.<br>
 
-The page automatically reloads if you make edits
+The page <strong>automatically reloads</strong> if you make edits<br>
 
-You’ll also see lint errors in the console (if any)
+You’ll also see <strong>lint errors</strong> in the console (if any)<br>
 
 ✅ Available Scripts
-In the project directory, you can run the following commands:
+In the project directory, you can run the following commands:<br>
 
 🟢 npm start
-Runs the app in development mode.
-Opens at: http://localhost:3000
+Runs the app in development mode.<br>
+Opens at: <a href="http://localhost:3000" target="_blank">http://localhost:3000</a><br>
 
 🧪 npm test
-Launches the test runner in the interactive watch mode.
-📘 Refer: Running Tests
+Launches the <strong>test runner</strong> in the interactive watch mode.<br>
+📘 Refer: <a href="https://facebook.github.io/create-react-app/docs/running-tests" target="_blank">Running Tests</a><br>
 
 ⚙️ npm run build
-Builds the app for production to the build/ folder.
+Builds the app for <strong>production</strong> to the <code>build/</code> folder.<br>
 
-Bundles React in production mode
+Bundles React in <strong>production mode</strong><br>
 
-Optimizes the build for best performance
+Optimizes the build for best performance<br>
 
-Minifies files and includes content hashes for caching
+Minifies files and includes <strong>content hashes</strong> for caching<br>
 
-📘 Learn more: Deployment Guide
+📘 Learn more: <a href="https://facebook.github.io/create-react-app/docs/deployment" target="_blank">Deployment Guide</a><br>
 
-🧨 npm run eject (Optional)
-⚠️ This is a one-way operation! Once you eject, you can't go back!
+🧨 npm run eject <em>(Optional)</em>
+⚠️ <strong>This is a one-way operation! Once you eject, you can't go back!</strong><br>
 
-This command will:
+This command will:<br>
 
-Copy all configuration files (e.g., Webpack, Babel, ESLint)
+Copy all configuration files (e.g., Webpack, Babel, ESLint)<br>
 
-Give you full control over the build setup
+Give you <strong>full control</strong> over the build setup<br>
 
-You’ll be responsible for maintaining all configurations
+You’ll be responsible for maintaining all configurations<br>
 
-Note: Most projects don’t require ejecting. Stick with the default unless you really need customization.
+<strong>Note:</strong> Most projects don’t require ejecting. Stick with the default unless you really need customization.<br>
 
 📁 Folder Structure (Typical)
 my-app/
@@ -56,12 +64,11 @@ my-app/
 ├── package.json
 └── README.md
 🔗 Useful Resources
-React Documentation
+<a href="https://reactjs.org/" target="_blank">React Documentation</a><br>
 
-Create React App Docs
+<a href="https://create-react-app.dev/" target="_blank">Create React App Docs</a><br>
 
-Deployment Guide
+<a href="https://facebook.github.io/create-react-app/docs/deployment" target="_blank">Deployment Guide</a><br>
 
 🙌 Happy Coding!
-Made with ❤️ by Mohammad Zaid
-
+Made with ❤️ by Mohammad Zaid <br>
