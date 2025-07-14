@@ -6,20 +6,21 @@ A React-based URL shortener app that supports real-time statistics, custom short
 
 ## 📁 Project Structure
 
-url-shortener/
-├── public/
-│ ├── index.html
-│ └── favicon.ico
-├── src/
-│ ├── components/
-│ │ ├── URLShortener.js
-│ │ ├── Statistics.js
-│ │ └── LoggingMiddleware.js
-│ ├── App.js
-│ ├── App.css
-│ └── index.js
-├── package.json
+url-shortener/<br>
+├── public/<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── index.html<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;└── favicon.ico<br>
+├── src/<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── components/<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── URLShortener.js<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── Statistics.js<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── LoggingMiddleware.js<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── App.js<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── App.css<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;└── index.js<br>
+├── package.json<br>
 └── README.md
+
 
 
 ---
