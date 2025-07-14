@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import URLShortener from './components/URLShortener';
+import StatisticsPage from './components/StatisticsPage';
+import Navigation from './components/Navigation';
 import './App.css';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('shortener');
+
+  const renderCurrentPage = () => {
+    switch (currentPage) {
+      case 'shortener':
+        return <URLShortener />;
+      case 'statistics':
+        return <StatisticsPage />;
+      default:
+        return <URLShortener />;
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <main className="main-content">
+        {renderCurrentPage()}
+      </main>
     </div>
   );
 }
